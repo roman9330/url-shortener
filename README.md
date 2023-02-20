@@ -11,7 +11,6 @@ composer require roman9330/url-shortener
 ## Use
 ### Example
 
-
 ```console
 $fileRepository = new FileRepository('db.json');
 
