@@ -14,6 +14,7 @@
         "php": "8.*",
         "guzzlehttp/guzzle": "7.*"
     },
+
     "autoload": {
         "psr-4": {
             "roman9330\\UrlShortener\\": "src/"
