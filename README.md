@@ -12,6 +12,13 @@ composer require roman9330/url-shortener
 ### Example
 
 ```console
+<?php
+
+use GuzzleHttp\Client;
+use roman9330\UrlShortener\FileRepository;
+use roman9330\UrlShortener\Helpers\UrlValidator;
+use roman9330\UrlShortener\UrlConverter;
+
 $fileRepository = new FileRepository('db.json');
 
 $urlValidator = new UrlValidator(new Client());
